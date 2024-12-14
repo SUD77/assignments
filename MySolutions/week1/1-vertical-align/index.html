@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1-vertical-align</title>
+  <style>
+    .container{
+      background-color: red;
+      width: 1200px;
+    }
+    .content{
+      height: 500px;
+      background-color: aqua;
+    }
+    .vertical-center{
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      flex-direction: column;
+      background-color: green;
+    }
+    .horizontal-center{
+      margin: 0 auto;
+      background-color: violet;
+    }
+
+
+  </style>
+</head>
+
+<body >
+  <div style="display: flex; justify-content: center; background-color: blue;">
+    <div class="container">
+      <div class="content">
+        <div class="vertical-center">
+          <div class="horizontal-center">
+            <h1>Sudhanshu</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
